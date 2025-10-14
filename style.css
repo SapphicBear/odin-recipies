@@ -16,16 +16,24 @@ p {
     font-size:large;
 }
 /* unordered List section! */
-ul {
-    border: solid 2px rgb(94, 112, 194);
+/* shared list styles */
+ul, ol {
     margin: 0 auto;
-    width: 500px;
+    width:500px;
     padding-top:10px;
     padding-bottom:10px;
+}
+ul, 
+h2.ingredients {
+    color:rgb(1, 43, 1);
+    background-color:rgb(156, 216, 198);
+    border: solid 2px rgb(94, 112, 194);
+}
+ul {
+    border: solid 2px rgb(94, 112, 194);
     background-color:rgb(156, 216, 198);
 }
 ul li {
-    color:rgb(6, 61, 6);
     font-size:large;
     border: dotted blue 2px;
     margin-top:4px;
@@ -62,3 +70,30 @@ figcaption {
     color:rgb(71, 13, 13);
 }
 /* Ordered list section */
+ol, 
+h2.steps {
+    color:rgb(61, 0, 73);
+    background-color:rgb(255, 201, 246);
+    border: rgb(163, 0, 90) solid 2px;
+}
+
+ol {
+    border: rgb(163, 0, 90) solid 2px;
+    padding-right:10px;
+    background-color:rgb(255, 201, 246);
+    
+}
+ol li {
+    border: dotted 2px rgba(221, 0, 103, 0.863);
+    margin:4px;
+    margin-left:-15px;
+    padding:2px;
+    background-color:rgb(255, 230, 244);
+}
+
+h2 {
+    margin:10px auto;
+    width:500px;
+    text-align: center;
+    padding:2px;
+}
